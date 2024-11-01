@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Archivo+Black); /* Archivo Black */
+
+#pwnstickysocial {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    z-index:99999;
+}
+#pwnstickysocial .mainul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+#pwnstickysocial .mainul .l1{
+	margin:0;
+	padding:1px;
+}
+#pwnstickysocial .scli {
+    position: relative;
+    width: 174px;
+    list-style: none;
+    border-radius: 0 8px 8px 0;
+    margin-left: -140px;
+    left:0;
+    cursor: pointer;
+    padding-top:0;
+    
+}
+
+#pwnstickysocial .scli img {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 5px 5px 0;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+#pwnstickysocial  li:before{
+	content:normal;
+}
+#pwnstickysocial .scli li {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0;
+    padding: 0 50px 0 0;
+    font-family: "Archivo Black";
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+ul.sortable{margin:0;padding:0;list-style:none;}
+.pwnsocialsticky-admin-wrap .row{
+	 margin: 5px 0;
+}
+.pwnsocialsticky-admin-wrap .row.head{
+	margin-bottom:20px;
+	border-bottom:1px solid;
+	padding:5px 0px;
+}
+.pwnsocialsticky-admin-wrap .col{
+	float: left;
+}
+.pwnsocialsticky-admin-wrap .col.th{
+	font-weight:bold;
+}
+.pwnsocialsticky-admin-wrap .w10{ width:10% !important; margin:0;padding:0;}
+.pwnsocialsticky-admin-wrap .w20{ width:20% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w30{ width:30% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w40{ width:40% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w50{ width:50% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w60{ width:60% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w70{ width:70% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w80{ width:80% !important; margin:0;padding:0;;}
+
+.pwnsocialsticky-admin-wrap .w5{ width:5% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w15{ width:15% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w25{ width:25% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w35{ width:35% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w45{ width:45% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w55{ width:55% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w65{ width:65% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w75{ width:75% !important; margin:0;padding:0;;}
+.pwnsocialsticky-admin-wrap .w85{ width:85% !important; margin:0;padding:0;;}
+
+.alin-center{
+	text-align:center;
+}
+.pwnsocialsticky-admin-wrap{
+
+}
+.pwnsocialsticky-admin-wrap input[type="text"]{
+	width:99%;
+}
+.pwnsocialsticky-admin-settings{
+	 float: left;
+    width: 74%;
+}
+.pwnsocialsticky-admin-about{
+	float: right;
+    width: 25%;
+}
+.pwnsocialsticky-admin-secion {
+    background: #fff none repeat scroll 0 0;
+    border-left: 5px solid #7ad03a;
+    margin: 15px 0;
+    padding: 6px 10px;
+    width: 96%;
+}
+.sortable li{
+
+}
+.pwnsocialsticky-col {width:250px; float:left;}
+.pwnsocial-setting-secion h3{margin:5px 0;}
+.other-settings input[type="text"] {width:60px !important;}
+.pwnsocialsticky-admin-secion .submit{
+	text-align:right;
+}
+#pwnsocialsticky-sortable .order-img{
+	cursor:move;
+	width: 25px;
+}
+.sortable-placeholder{border:1px dotted red;height:40px;}
+.dragging {
+	border:1px dotted green;
+	background:white;
+	height:50px;
+	padding:0 5px 10px 5px;
+}
+#pwnstickysocial.right-float{
+	left:inherit;
+	right:0;
+}
+
+
+#pwnstickysocial.right-float .mainul{
+	text-align:left;
+}
+#pwnstickysocial.right-float .scli {
+    border-radius: 8px 0px 0px 8px;
+    right: 0;
+    left:inherit;
+    margin-right: -140px;
+    margin-left:inherit;
+    width: 174px;
+}
+#pwnstickysocial.right-float .scli img {
+    border-radius: 5px 0px 0px 5px;
+    right:inherit;
+    left: 0;
+    top: 0;
+}
+#pwnstickysocial.right-float .scli li {
+    padding-left: 50px;
+    padding-right:inherit;
+}
+
